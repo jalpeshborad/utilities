@@ -1,0 +1,12 @@
+.idea
+*.pyc
+config/
+
+# Build files
+build
+dist
+pkg
+*.egg
+*.egg-info
+
+.DS_Store
