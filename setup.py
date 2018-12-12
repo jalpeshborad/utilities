@@ -14,9 +14,10 @@ import setuptools
 
 setuptools.setup(
     name="general_utilities",
-    version="0.1",
+    version="0.1.1",
     author="Jalpesh Borad",
     author_email="jalpeshborad@gmail.com",
     description="A general utilities for day-to-day python programs",
-
+    packages=setuptools.find_packages(),
+    url="https://github.com/jalpeshborad/utilities",
 )

@@ -16,7 +16,7 @@ from traceback import format_exc
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
-from error.exceptions import CommunicationError
+from utilities.error.exceptions import CommunicationError
 
 
 def send_email(**kwargs):
